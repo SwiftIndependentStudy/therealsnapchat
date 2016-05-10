@@ -1,42 +1,36 @@
 //
-//  ViewController.swift
+//  SignUpViewController.swift
 //  Snapchat_1
 //
-//  Created by XCode on 3/30/16.
+//  Created by Jack Li on 5/4/16.
 //  Copyright © 2016 XCode. All rights reserved.
 //
 
 import Cocoa
 
-class ViewController: NSViewController {
+class SignUpViewController: NSViewController {
     
-    @IBAction func login(sender: AnyObject) {
-        
-        
-    }
     
-    @IBAction func goToSignUp(sender: AnyObject) {
-        let signupVC = storyboard?.instantiateControllerWithIdentifier("SignupVC") as? SignUpViewController
-        view.window?.contentViewController = signupVC
+    @IBAction func backToLogin(sender: AnyObject) {
+         let loginVC = storyboard?.instantiateControllerWithIdentifier("LoginVC") as? NSViewController
+         view.window?.contentViewController = loginVC
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the    view.
     }
     
     override func viewDidAppear() {
         self.view.window?.styleMask = NSClosableWindowMask | NSTitledWindowMask | NSMiniaturizableWindowMask
     }
-
+    
     override var representedObject: AnyObject? {
         didSet {
-        // Update the view, if already loaded.
+            // Update the view, if already loaded.
         }
     }
 
-
 }
-

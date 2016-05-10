@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485E5FB11CDA585F009BF4F8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E5FB01CDA585F009BF4F8 /* SignUpViewController.swift */; };
+		485E5FB31CDA5AE4009BF4F8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E5FB21CDA5AE4009BF4F8 /* MainViewController.swift */; };
 		AE4582571CAC34980028B166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4582561CAC34980028B166 /* AppDelegate.swift */; };
 		AE4582591CAC34980028B166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4582581CAC34980028B166 /* ViewController.swift */; };
 		AE45825B1CAC34980028B166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE45825A1CAC34980028B166 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		485E5FB01CDA585F009BF4F8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = Snapchat_1/SignUpViewController.swift; sourceTree = "<group>"; };
+		485E5FB21CDA5AE4009BF4F8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Snapchat_1/MainViewController.swift; sourceTree = "<group>"; };
 		AE4582531CAC34980028B166 /* Snapchat_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4582561CAC34980028B166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE4582581CAC34980028B166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 		AE45824A1CAC34980028B166 = {
 			isa = PBXGroup;
 			children = (
+				485E5FB01CDA585F009BF4F8 /* SignUpViewController.swift */,
+				485E5FB21CDA5AE4009BF4F8 /* MainViewController.swift */,
 				AE4582551CAC34980028B166 /* Snapchat_1 */,
 				AE4582671CAC34990028B166 /* Snapchat_1Tests */,
 				AE4582721CAC34990028B166 /* Snapchat_1UITests */,
@@ -252,8 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485E5FB11CDA585F009BF4F8 /* SignUpViewController.swift in Sources */,
 				AE4582591CAC34980028B166 /* ViewController.swift in Sources */,
 				AE4582571CAC34980028B166 /* AppDelegate.swift in Sources */,
+				485E5FB31CDA5AE4009BF4F8 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +483,7 @@
 				AE45827A1CAC34990028B166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE45827B1CAC34990028B166 /* Build configuration list for PBXNativeTarget "Snapchat_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +492,7 @@
 				AE45827D1CAC34990028B166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE45827E1CAC34990028B166 /* Build configuration list for PBXNativeTarget "Snapchat_1UITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +501,7 @@
 				AE4582801CAC34990028B166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
