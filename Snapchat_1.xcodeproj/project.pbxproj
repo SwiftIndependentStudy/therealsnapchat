@@ -76,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE0E07F11CE668640076D1AD /* User Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AE45825C1CAC34990028B166 /* Main.storyboard */,
+			);
+			name = "User Settings";
+			sourceTree = "<group>";
+		};
 		AE45824A1CAC34980028B166 = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +112,7 @@
 				AE4582561CAC34980028B166 /* AppDelegate.swift */,
 				AE4582581CAC34980028B166 /* ViewController.swift */,
 				AE45825A1CAC34980028B166 /* Assets.xcassets */,
-				AE45825C1CAC34990028B166 /* Main.storyboard */,
+				AE0E07F11CE668640076D1AD /* User Settings */,
 				AE45825F1CAC34990028B166 /* Info.plist */,
 			);
 			path = Snapchat_1;

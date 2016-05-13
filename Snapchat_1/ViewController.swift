@@ -25,6 +25,8 @@ class ViewController: NSViewController {
     }
     
     
+    
+    
     @IBAction func goToSignUp(sender: AnyObject) {
         let signupVC = storyboard?.instantiateControllerWithIdentifier("SignupVC") as? SignUpViewController
         view.window?.contentViewController = signupVC
