@@ -10,10 +10,20 @@ import Cocoa
 
 class ViewController: NSViewController {
     
+    
+    override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?) {
+        self.view.window?.close()
+        //Pass data to new view
+    }
+    
     @IBAction func login(sender: AnyObject) {
         
-        
+        func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?) {
+            self.view.window?.close()
+            //Pass data to new view
+        }
     }
+    
     
     @IBAction func goToSignUp(sender: AnyObject) {
         let signupVC = storyboard?.instantiateControllerWithIdentifier("SignupVC") as? SignUpViewController
@@ -27,10 +37,11 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the    view.
     }
     
-    override func viewDidAppear() {
-        self.view.window?.styleMask = NSClosableWindowMask | NSTitledWindowMask | NSMiniaturizableWindowMask
+    /*override func viewDidAppear() {
+        //self.view.window?.styleMask = NSClosableWindowMask | NSTitledWindowMask | NSMiniaturizableWindowMask
     }
-
+*/
+        
     override var representedObject: AnyObject? {
         didSet {
         // Update the view, if already loaded.

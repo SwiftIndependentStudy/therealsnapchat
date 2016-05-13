@@ -17,6 +17,9 @@ class SignUpViewController: NSViewController {
         
     }
     
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
